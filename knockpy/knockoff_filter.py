@@ -409,7 +409,7 @@ class KnockoffFilter:
         self.rejections = self.make_selections(self.W, self.fdr)
 
         # Return
-        return self.rejections
+        return self.rejections, self.W
 
     def seqstep_plot(
         self,
